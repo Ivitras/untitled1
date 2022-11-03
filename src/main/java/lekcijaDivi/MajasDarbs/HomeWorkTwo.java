@@ -7,7 +7,7 @@ public class HomeWorkTwo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-//        //a un b
+        //a un b
         int x = 1;
         System.out.println(x > 0);
         System.out.println(x < 0);
@@ -29,49 +29,49 @@ public class HomeWorkTwo {
         x = 6;
         System.out.println(x * x > 10);
 
-////
-////        // 2. uzdevums (kā mācījāmies lekcijā)
-////        int menesaSkaitlis = 5;
-////        switch(menesaSkaitlis) {
-////            case 1:
-////                System.out.println("Janvāris");
-////                break;
-////            case 2:
-////                System.out.println("Februāris");
-////                break;
-////            case 3:
-////                System.out.println("Marts");
-////                break;
-////            case 4:
-////                System.out.println("Aprīlis");
-////                break;
-////            case 5:
-////                System.out.println("Maijs");
-////                break;
-////            case 6:
-////                System.out.println("Jūnijs");
-////                break;
-////            case 7:
-////                System.out.println("Jūlijs");
-////                break;
-////            case 8:
-////                System.out.println("Augusts");
-////                break;
-////            case 9:
-////                System.out.println("Septembris");
-////                break;
-////            case 10:
-////                System.out.println("Oktobris");
-////                break;
-////            case 11:
-////                System.out.println("Novembris");
-////                break;
-////            case 12:
-////                System.out.println("Decembris");
-////                break;
-////            default:
-////                System.out.println("Nav tāda mēneša");
-////        }
+//////
+//////        // 2. uzdevums (kā mācījāmies lekcijā)
+//////        int menesaSkaitlis = 5;
+//////        switch(menesaSkaitlis) {
+//////            case 1:
+//////                System.out.println("Janvāris");
+//////                break;
+//////            case 2:
+//////                System.out.println("Februāris");
+//////                break;
+//////            case 3:
+//////                System.out.println("Marts");
+//////                break;
+//////            case 4:
+//////                System.out.println("Aprīlis");
+//////                break;
+//////            case 5:
+//////                System.out.println("Maijs");
+//////                break;
+//////            case 6:
+//////                System.out.println("Jūnijs");
+//////                break;
+//////            case 7:
+//////                System.out.println("Jūlijs");
+//////                break;
+//////            case 8:
+//////                System.out.println("Augusts");
+//////                break;
+//////            case 9:
+//////                System.out.println("Septembris");
+//////                break;
+//////            case 10:
+//////                System.out.println("Oktobris");
+//////                break;
+//////            case 11:
+//////                System.out.println("Novembris");
+//////                break;
+//////            case 12:
+//////                System.out.println("Decembris");
+//////                break;
+//////            default:
+//////                System.out.println("Nav tāda mēneša");
+//////        }
 
          //2. uzdevums (kā es to saprotu)
 
@@ -143,8 +143,9 @@ public class HomeWorkTwo {
         //4.uzdevums
 
 
-        String luksofors = "sarkans/ dzeltens/ zaļš/ Nedeg gaisma";
+        String luksofors = "sarkans";
         System.out.println("Uzraksti luksofora krāsu:");
+        Scanner scannerx = new Scanner (System.in);
         luksofors = scanner.nextLine();
 
         if(luksofors.equals("sarkans")){
@@ -172,5 +173,4 @@ public class HomeWorkTwo {
                     "\nUzvārds: Vasiļevska" + "\nTelefona Nr. 26899528" + "\nDzimšanas gads: 1983\n");
       }
 }
-
 
